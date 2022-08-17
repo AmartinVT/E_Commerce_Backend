@@ -1,5 +1,5 @@
 const router = require('express').Router();
-import { Product, Category, Tag, ProductTag } from '../../models';
+const { Category, Product } = require('../../models');
 
 // The `/api/products` endpoint
 
@@ -8,7 +8,7 @@ router.get('/', (req, res) => {
   // find all products
   // be sure to include its associated Category and Tag data
   try {
-    const productData = await Product.findAll({
+    const productData = Product.findAll({
       include: 
       [
         {model: Category, through: category_id, as: 'product_category'},
@@ -105,4 +105,4 @@ router.delete('/:id', (req, res) => {
   // delete one product by its `id` value
 });
 
-export default router;
+module.exports = router;
