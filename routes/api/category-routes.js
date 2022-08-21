@@ -12,9 +12,6 @@ router.get('/', async (req, res) => {
       include: [{
         model: Product,
         attributes: ['id', 'product_name', 'price', 'stock', 'category_id']
-      },{
-        model: Tag,
-        attributes: ['id', 'tag_name']
       }]
     });
     res.status(200).json(categoryData);
@@ -27,7 +24,7 @@ router.get('/:id', async (req, res) => {
   // find one category by its `id` value
   // be sure to include its associated Products
   try {
-    const categoryData = await Category.findAll({
+    const categoryData = await Category.findOne({
       where: {id: req.params.id},
       attributes: ['id', 'category_name'],
       include: [{
