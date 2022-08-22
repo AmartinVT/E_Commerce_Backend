@@ -22,10 +22,15 @@ mysql2
 dotenv
 
 # Video Walkthrough
-(https://drive.google.com/file/d/1CZZGOBet32ZR90AQ22q8tPzlf8-_1_D-/view)
 
-(https://drive.google.com/file/d/1LnbNj9N3gSNv9kELZe2PurE_rJ8aQk5J/view)
+## Server Startup
+https://drive.google.com/file/d/1CZZGOBet32ZR90AQ22q8tPzlf8-_1_D-/view
 
-(https://drive.google.com/file/d/18IrxkuFsQfPLuCN6o9-nNWnkcqgUPWig/view)
+## Product Routes
+https://drive.google.com/file/d/1LnbNj9N3gSNv9kELZe2PurE_rJ8aQk5J/view
 
-(https://drive.google.com/file/d/1Y13w3ezTJVlY5qa2DV5WcqSBbuWP-801/view)
+## Category Routes
+https://drive.google.com/file/d/18IrxkuFsQfPLuCN6o9-nNWnkcqgUPWig/view
+
+## Tag Routes
+https://drive.google.com/file/d/1Y13w3ezTJVlY5qa2DV5WcqSBbuWP-801/view
